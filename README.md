@@ -1,4 +1,4 @@
-🔐 Password Cracker Simulator (Tkinter GUI)
+🔐 Threat Simulator (Tkinter GUI)
 
 This is a beginner-friendly Python project that shows how passwords can be cracked using two basic techniques:
 
@@ -32,25 +32,11 @@ Brute force attack using all possible 3-character combinations
 
 Runs attacks in a separate thread (doesn’t freeze the UI)
 
-📦 How to Run It
-Make sure Python 3 is installed.
-
-Save the script as password_cracker_simulator.py.
-
-Open terminal or command prompt and run:
-
-nginx
-Copy
-Edit
-python password_cracker_simulator.py
-A window will open. Type in a password and try cracking it using either method.
-
 🧪 Example Test Passwords
-Password	Cracked By
-123456	Dictionary attack
-a1B	Brute force attack
-admin	Dictionary attack
-Hello@	Not cracked (too long)
+Password
+123456
+a1B	
+admin
 
 For Brute Force to work, use short passwords (1–3 characters only).
 
@@ -65,4 +51,4 @@ Not suitable for real cracking — this is just for education
 This is a fun project for learning purposes only. Do not use it for anything unethical or illegal.
 
 ✨ Created by
-[Your Name] – exploring basic cybersecurity and password safety using Python and Tkinter.
+Daiwik Puri
